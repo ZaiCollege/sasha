@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Праздник</title>
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <header>
+        <img class="lot" src="img/zai.png" id="logo">
+        <!--Меню-->
+        <div id="menu">
+            <a href="index.html">Главная</a>
+            <a href="seat.html">Услуги</a>
+            <a href="search.html">Поиск документов</a>
+            <a href="booking.html">Бронирование услуг</a>
+        </div>
+    </header>
+    <!-- Форма записи на прием -->
+    <section class="main_bron">
+        <h1 class="text-uper">Форма записи на прием</h1>
+      <div class="poisk" action="" method="post">
+        <h1>Введите данные для записи</h1>
+        <label id="date_zas">Выбор региона</label>
+            <select name="region">
+                <option value="RT">Республика Татарстан</option>
+                <option value="Bel">Республика Башкортстан</option>
+            </select> <br><br>
+            <label id="date_zas">Дата регистрации запроса</label>
+            <input type="date" name="date_zas"><br><br>
+            <label id="count_vzroslih">Количество услуг </label>
+            <input type="number" max="10" min="1" checked="1" name="count_vzroslih"><br><br>
+ <label id="count_vzrosl">Ф.И.О</label>           
+<input class="input" type="text" placeholder="Иванов Иван Иванович"> <br> <br>
+<label id="region">Выбор услуги</label>
+             <select name="region">
+                <option value="RT">Запрос тематического и социально-правового характера</option>
+                <option value="Bel">Предоставление документов во временное пользование</option>
+                <option value="Bel">Прием документов</option>
+            </select> <br><br>
+        <button class="btn" type="submit">Записаться</button> 
+        </div>
+    
+    <!-- Подвал -->
+    <footer>
+        <div id="menu">
+            <a href="index.html">Главная</a>
+            <a href="seat.html">Услуги</a>
+            <a href="search.html">Поиск документов</a>
+            <a href="booking.html">Бронирование услуг</a>
+            <p>Телефон +7(5558)7-07-15</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,204 @@
+body {
+    background: url(/img/location/26.jpg) no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(216, 255, 214);
+}
+/* шапка сайта */
+header {
+    background-color: rgb(0, 170, 23);
+    opacity: 0.9;
+    padding: 30px 60px;
+    min-width: 1100px;
+    max-width: 1200px;
+    margin: 0px;
+    border: 3px solid rgba(255, 255, 255, 0.034);
+    border-radius: 30px;
+    margin-bottom: 10px;
+  }
+  header{
+    
+    position: sticky;
+    z-index: 999;
+    top: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em
+  }
+  /*свойства для логотиппа*/
+  .lot:hover{
+    transform: scale(1.2); /* Увеличиваем масштаб */
+  }
+  .lot{
+  float: left;
+  height: 80px;
+  width: 80px;
+  margin-top: -25px;
+   border-radius: 20px; 
+  }
+  /*свойства для меню*/
+  #menu{
+    text-align: center;
+    margin: 0px;
+    font-size: 25px;
+  }
+  #menu a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    padding: 10px;
+  }
+  #menu a:hover{
+    cursor: pointer;
+    color: white;
+  }
+  /*о нас */
+  .algo {
+    text-align: center;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px white;
+  }
+  .deti {
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+  } 
+  .det {
+    width: 230px;
+    height: 250px;
+    border-radius: 20px;
+    border: solid 2px rgb(0, 0, 0);
+    margin: 0 auto;
+  }
+  h1 {
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+  }
+  .pick {
+    text-align: center;
+    display: flex;
+  }
+  figcaption {
+    text-align: center;
+    font-size: 17px;
+    text-shadow: 1px 1px 2px white;
+  }
+  /* Форма поиска */
+  .poisk {
+    text-align: center;
+    max-width: 500px;
+    min-width: 500px;
+    border: solid 2px rgb(68, 100, 64);
+    border-radius: 20px;
+    margin: 0 auto;
+    background-color: rgb(189, 199, 190);
+  }
+  .poisk p {
+    text-shadow: 1px 1px 2px white;
+  }
+  .gop {
+    text-align: center;
+    margin: 0 auto;
+    width: 100px;
+    margin-top: 10px;
+  }
+  /* услуги */
+  .pic {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-radius: 20px;
+  }
+  .de {
+    width: 500px;
+    height: 400px;
+    border-radius: 20px;
+    border: solid 2px rgb(3, 20, 7);
+    margin: 0 auto;
+    
+  }
+  .pic figcaption {
+    font-size: 20px;
+  }
+ 
+  /* Подвал  */
+  footer {
+    background-color: rgb(21, 155, 17);
+    opacity: 0.9;
+    padding: 30px 60px;
+    min-width: 90%;
+    margin: 0px;
+    border: 3px solid rgba(255, 255, 255, 0.034);
+    
+    margin-top: 20px;
+  }
+  footer p{
+    font-size: 16px;
+    color: white;
+  }
+  /* 2 страница */
+  /* Форма*/
+  .form {
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 20px;
+    margin-top: 120px;
+    background-color: bisque;
+  }
+  .form input {
+    width: 220px;
+    height: 30px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: rgb(208, 253, 234);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .podval {
+    margin-top: 140px;
+  }
+  .d {
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+    border: solid 2px rgb(0, 0, 0);
+    margin: 0 auto;
+  }
+  /*Алгоритм бронирования инфографика*/
+.main_bron {
+  background-color: rgb(217, 248, 217);
+}
+.algoritm_bron {
+  margin-right: 700px;
+}
+.algoritm_bron img {
+  height: 150px;
+  width: 150px;
+  text-align: center;
+}
+.bron_1 {
+  display: flex;
+}
+.bron_2 {
+  display: flex;
+}
+.bronik {
+  margin: 15px;
+}
+.bronik:hover {
+  transform: scale(1.15);
+}
+.main_broni img{
+
+  height:500px;
+  width: 530px;
+
+
+}
